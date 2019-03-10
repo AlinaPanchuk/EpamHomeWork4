@@ -12,7 +12,7 @@ public class task4 {
 
     public static void outputOfThePyramid(int heightOfThePyramid){
         int line = 0;
-        while (line < heightOfThePyramid){
+        while (line < heightOfThePyramid + 1){
             int i = 0;
             while (i < heightOfThePyramid-line) {
                 System.out.print(" ");
