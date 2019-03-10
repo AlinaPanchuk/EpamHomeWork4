@@ -10,7 +10,7 @@ public class Task1 {
         System.out.println(findUniqueSymbols(inputLine));
     }
 
-    public static String findUniqueSymbols(String line){
+    public static String findUniqueSymbols(String line) {
         if (checkString(line)) {
             String result = "";
             int length = line.length();
@@ -27,7 +27,7 @@ public class Task1 {
         return null;
     }
 
-    public static boolean checkString(String line){
+    public static boolean checkString(String line) {
         return line != null && line.length() != 0
                 && line.trim().length() != 0;
     }
